@@ -1,0 +1,162 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 2px solid #ddd;
+}
+
+.brand {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+.search-bar {
+  width: 50%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.actions .action-btn {
+  margin-left: 10px;
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Section styles */
+.section {
+  margin: 30px auto;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+}
+
+/* Card Grid Layout */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.article-card,
+.tutorial-card {
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.view-all-btn {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Subscribe Section */
+.subscribe-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #007bff;
+  color: white;
+}
+
+.subscribe-input {
+  padding: 10px;
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscribe-btn {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1;
+}
+
+.footer-column h4 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.footer-column .social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
